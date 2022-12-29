@@ -1,17 +1,57 @@
-# Car-Inventory
-This project built for government office. Name is Car Inventory System also project had been publish on website. 
-Website only can be accessible in  official government office and by who is work there. Its mean Website does not open outside.
-Login page animation:
-![ANİMATİON](https://user-images.githubusercontent.com/112412065/208071000-7f1bc126-7060-428f-a9b2-4b70ce8e3618.png)
-![ANİMATİON SONU](https://user-images.githubusercontent.com/112412065/208071018-06ae1d43-127e-48e6-a378-5a27de1b9916.png)
-Home Page contains cauresel image slide:![HOME PAGE](https://user-images.githubusercontent.com/112412065/208071217-6973e36e-dcb9-4b1c-b6bf-28ea05db20eb.png)
-Birimimin Araclari has contain input group and table: ![İNPUT GRUP](https://user-images.githubusercontent.com/112412065/208077733-41989777-1536-498f-aff4-84edf450e316.png)
-![TABLE](https://user-images.githubusercontent.com/112412065/208077745-1f7f1758-c2de-4032-bd4e-4c3dd51e542f.png)
-User can add car with features in input group area. And its input group area has validate features. 
-Then this cars which has created by users, goes to table. 
-Table section can be able to open with Microsoft Excel also user can print it.
-And cars listed in this section, user can be deleted and update cars. 
-Cars has detail page:![DETAİL PAGE](https://user-images.githubusercontent.com/112412065/208080466-13a05624-fd02-4842-95f7-6df588941eb1.png)
-In detail page user can add a note about cars.
-When user want to add or update a car, user have to accept to user terms where in input group. 
-User has profile page, its contain password update area: ![PROFİLE](https://user-images.githubusercontent.com/112412065/208081765-8b5b23b4-d66f-4982-93e7-6c27442a9036.png)
+# 🚀 Getting started with Strapi
+
+Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+
+### `develop`
+
+Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+
+```
+npm run develop
+# or
+yarn develop
+```
+
+### `start`
+
+Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+
+```
+npm run start
+# or
+yarn start
+```
+
+### `build`
+
+Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+
+```
+npm run build
+# or
+yarn build
+```
+
+## ⚙️ Deployment
+
+Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+
+## 📚 Learn more
+
+- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
+- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
+- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
+- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
+- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+
+Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+
+## ✨ Community
+
+- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
+- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+
+---
+
+<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>

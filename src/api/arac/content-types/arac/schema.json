@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aracs",
+  "info": {
+    "singularName": "arac",
+    "pluralName": "aracs",
+    "displayName": "arac",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "car_type": {
+      "type": "string"
+    },
+    "tracking_device": {
+      "type": "string"
+    },
+    "tracking_device_id": {
+      "type": "biginteger"
+    },
+    "tracking_device_gsm": {
+      "type": "biginteger"
+    },
+    "car_brand": {
+      "type": "string"
+    },
+    "car_model": {
+      "type": "string"
+    },
+    "model_year": {
+      "type": "biginteger"
+    },
+    "plate_type": {
+      "type": "string"
+    },
+    "plate": {
+      "type": "string"
+    },
+    "fuel_consumption": {
+      "type": "decimal"
+    },
+    "form_acquisition": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "belong_officer": {
+      "type": "string"
+    },
+    "officer_name": {
+      "type": "string"
+    },
+    "driver_name": {
+      "type": "string"
+    },
+    "myuser": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

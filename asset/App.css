@@ -1,0 +1,136 @@
+
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative; 
+    font-family:"Roboto Slab";
+    background-color: #eaf3fa;
+}
+
+.text-link{
+    color: #E2DCC8;
+}
+.contact {
+    background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,1)),  url('./Login/water.webp');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    overflow: scroll;
+
+  }
+.form-login{
+    background-color: #06283D;
+    color: #DFF6FF;
+    opacity: 1;
+}
+.text-login{
+    color: #06283D;
+}
+.font-family { font-family:"Helvetica";} 
+.splash-logo{
+    height: 100vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button {
+    color: #06283D;
+}
+ 
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+  h3 {
+    font-size: 1.3em;
+}
+.nav_bar_text{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.NavBarStick{
+    text-shadow: rgb(0, 0, 0 / 1%) 0 0 1px;
+    background-image: linear-gradient( to top, #eaf3fa 19%, #133d63 140%) !important;
+}
+.fluid_image{
+  height: 60vh;
+  width: 130vh;
+  
+}
+.HomePageTitle{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 2%;
+    
+}
+.form_group_box{
+    background-color: #7d9fbd;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.Logging_List {
+    background-color: #7d9fbd;
+}
+.box-hover:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: box-shadow 0.3s;
+    background-color: #327bbbae;
+    transition: 1s;
+}
+.logo-box:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: box-shadow 0.3s;
+    
+}
+.centered {
+    height: 80vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    font-size: small;
+    min-width: 100%;
+    background-image: linear-gradient( to bottom, #eaf3fa 2%, #7d9fbd 40%) !important;
+    position: absolute; 
+    bottom: 0; /* this will fix it */
+    left: 0; /* and fixing to a left side */
+    /* just to see it */
+    background: #aaa; 
+    height: 70px;
+    width: 100%;
+    margin-top: 1001px;
+}
+.table, thead, th{
+    border: 1px solid;
+    background-color: #327bbbae;
+overflow-wrap: break-word;   
+    
+}
+.Table_Birim_box{
+    background: rgba(255, 255, 255, 0.801);
+    font-size: small;
+    border:solid 1px #327bbbae;
+    display: inline-block;
+        width: 95%;
+        max-width: 120%;
+        position: relative;    
+        left: 50%; 
+        transform: translateX(-50%);
+
+
+    
+    }
